@@ -9,20 +9,14 @@ package ec.edu.espoch.gestiontransabtrab.object;
  * @author Sebas
  */
 public class Moto extends Vehiculo {
-    private String tipoMoto;
 
-    public Moto(String tipoMoto, String marca, String modelo) {
-        super(marca, modelo);
-        this.tipoMoto = tipoMoto;
-    }
-
-    public String getTipoMoto() {
-        return tipoMoto;
+    public Moto(String tipoVehiculos, double capacidad) {
+        super(tipoVehiculos, capacidad);
     }
 
     @Override
     public void transportar() {
-        throw new UnsupportedOperationException("La moto transpota productos pequeños rapidamente en areas urbanas");
+        System.out.println("La moto transpota productos pequeños rapidamente en areas urbanas");
     }
     
     

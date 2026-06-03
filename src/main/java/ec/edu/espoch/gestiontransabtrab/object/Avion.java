@@ -9,20 +9,15 @@ package ec.edu.espoch.gestiontransabtrab.object;
  * @author Sebas
  */
 public class Avion extends Vehiculo{
-    private int numMotores; 
 
-    public Avion(int numMotores, String marca, String modelo) {
-        super(marca, modelo);
-        this.numMotores = numMotores;
+    public Avion(String tipoVehiculos, double capacidad) {
+        super(tipoVehiculos, capacidad);
     }
 
-    public int getNumMotores() {
-        return numMotores;
-    }
 
     @Override
     public void transportar() {
-        throw new UnsupportedOperationException("El avion transporta productos grandes o internacionales de forma rapida por aire"); 
+        System.out.println("El avion transporta productos grandes o internacionales de forma rapida por aire"); 
     }
     
 }

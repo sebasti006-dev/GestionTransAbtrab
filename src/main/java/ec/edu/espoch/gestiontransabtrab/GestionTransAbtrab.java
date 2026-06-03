@@ -4,6 +4,8 @@
 
 package ec.edu.espoch.gestiontransabtrab;
 
+import ec.edu.espoch.gestiontransabtrab.object.Vehiculo;
+
 /**
  *
  * @author Sebas
@@ -11,6 +13,7 @@ package ec.edu.espoch.gestiontransabtrab;
 public class GestionTransAbtrab {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
     }
-}
+                
+                    
+                }

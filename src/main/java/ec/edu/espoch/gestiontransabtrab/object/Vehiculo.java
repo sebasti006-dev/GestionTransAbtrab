@@ -9,21 +9,33 @@ package ec.edu.espoch.gestiontransabtrab.object;
  * @author Sebas
  */
 public abstract class Vehiculo {
-    private String marca;
-    private String modelo; 
+    private String tipoVehiculos;
+    private double capacidad; 
 
-    public Vehiculo(String marca, String modelo) {
-        this.marca = marca;
-        this.modelo = modelo;
+    public Vehiculo(String tipoVehiculos, double capacidad) {
+        this.tipoVehiculos = tipoVehiculos;
+        this.capacidad = capacidad;
     }
 
-    public String getMarca() {
-        return marca;
+    public String getTipoVehiculos() {
+        return tipoVehiculos;
     }
 
-    public String getModelo() {
-        return modelo;
+    public void setTipoVehiculos(String tipoVehiculos) {
+        this.tipoVehiculos = tipoVehiculos;
     }
+
+    public double getCapacidad() {
+        return capacidad;
+    }
+
+    public void setCapacidad(double capacidad) {
+        this.capacidad = capacidad;
+    }
+
+    
+  
+    
 public  double calcularDistancia( double velocidad){
       return velocidad * 1;
 }

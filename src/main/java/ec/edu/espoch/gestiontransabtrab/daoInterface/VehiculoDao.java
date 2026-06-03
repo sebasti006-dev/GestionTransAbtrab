@@ -12,12 +12,7 @@ import ec.edu.espoch.gestiontransabtrab.object.Vehiculo;
  */
 public interface VehiculoDao {
 
-   public  void guardar(Vehiculo v);
+    public void mostrarDatos(Vehiculo vehiculo);
 
-    public  Vehiculo[] listar();
-
-    Vehiculo buscar(int posicion);
-
-    public void eliminar(int posicion);
+    public void mostrarDistancias(Vehiculo vehiculo, double velocidad, double tiempo, double c);
 }
-

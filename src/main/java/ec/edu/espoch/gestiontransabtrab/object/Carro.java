@@ -9,16 +9,13 @@ package ec.edu.espoch.gestiontransabtrab.object;
  * @author Sebas
  */
  public class Carro extends Vehiculo{
-    private int numRuedas;
 
-    public Carro(String marca, String modelo) {
-        super(marca, modelo);
-        this.numRuedas=4;
+    public Carro(String tipoVehiculos, double capacidad) {
+        super(tipoVehiculos, capacidad);
     }
 
-    public int getNumRuedas() {
-        return numRuedas;
-    }
+
+  
 
     @Override
     public void transportar() {
