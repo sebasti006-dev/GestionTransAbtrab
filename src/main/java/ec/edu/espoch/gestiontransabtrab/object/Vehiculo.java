@@ -12,6 +12,9 @@ public abstract class Vehiculo {
     private String tipoVehiculos;
     private double capacidad; 
 
+    public Vehiculo() {
+    }
+
     public Vehiculo(String tipoVehiculos, double capacidad) {
         this.tipoVehiculos = tipoVehiculos;
         this.capacidad = capacidad;
@@ -35,7 +38,7 @@ public abstract class Vehiculo {
 
     
   
-    
+     public abstract void transportar();
 public  double calcularDistancia( double velocidad){
       return velocidad * 1;
 }
@@ -45,8 +48,7 @@ public  double calcularDistancia( double velocidad , double tiempo ){
 public  double calcularDistancia(double velocidad ,double tiempo,double eficiencia){
     return velocidad * tiempo * eficiencia; 
 }
-public abstract void transportar();
-   
+
     
     
 }

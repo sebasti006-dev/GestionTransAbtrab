@@ -9,11 +9,14 @@ package ec.edu.espoch.gestiontransabtrab.object;
  * @author Sebas
  */
 public class Moto extends Vehiculo {
-
+    
+    public Moto(){
+        
+    }
     public Moto(String tipoVehiculos, double capacidad) {
         super(tipoVehiculos, capacidad);
     }
-
+    
     @Override
     public void transportar() {
         System.out.println("La moto transpota productos pequeños rapidamente en areas urbanas");

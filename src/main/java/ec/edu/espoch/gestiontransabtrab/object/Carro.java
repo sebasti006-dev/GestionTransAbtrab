@@ -8,21 +8,20 @@ package ec.edu.espoch.gestiontransabtrab.object;
  *
  * @author Sebas
  */
- public class Carro extends Vehiculo{
+ public class Carro extends Vehiculo {
+     
+     public Carro(){
+         
+     }
 
     public Carro(String tipoVehiculos, double capacidad) {
         super(tipoVehiculos, capacidad);
     }
 
-
-  
-
     @Override
     public void transportar() {
-     System.out.println("El carro transporta productos por carretera de forma eficiente.");
-    
-   
-        
+        System.out.println("El carro transporta productos por carretera de forma eficiente.");
+
     }
-    
+
 }

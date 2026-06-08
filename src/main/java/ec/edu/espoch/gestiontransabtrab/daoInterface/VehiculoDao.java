@@ -14,5 +14,5 @@ public interface VehiculoDao {
 
     public void mostrarDatos(Vehiculo vehiculo);
 
-    public void mostrarDistancias(Vehiculo vehiculo, double velocidad, double tiempo, double c);
+    public void mostrarDistancias(Vehiculo vehiculo, double velocidad, double tiempo, double capacidad);
 }

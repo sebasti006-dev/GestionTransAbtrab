@@ -10,6 +10,9 @@ package ec.edu.espoch.gestiontransabtrab.object;
  */
 public class Avion extends Vehiculo{
 
+    public Avion(){
+        
+    }
     public Avion(String tipoVehiculos, double capacidad) {
         super(tipoVehiculos, capacidad);
     }
